@@ -1,8 +1,29 @@
 aid: enzyme
 name: Enzyme
-description: Enzyme is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Enzyme is a cloud-based electronic Quality Management System (eQMS) for the
+  life sciences, serving medical device, digital health, and biopharma companies.
+  The platform is 21 CFR Part 11 compliant and validated out-of-box, spanning the
+  full product lifecycle: document control, change control, and training as core
+  functions; design control, risk management, and supplier management for premarket;
+  and audits, complaints, nonconformance, and CAPA for postmarket. It integrates
+  with enterprise tools including Microsoft Office 365, Slack, Salesforce, Jira,
+  GitHub, GitLab, Google Workspace, and Jenkins, and is designed to scale from
+  startup through IPO-stage organizations. Enzyme was surfaced as a portfolio
+  company of DCVC (Data Collective) and was acquired by Greenlight Guru.
 url: https://raw.githubusercontent.com/api-evangelist/enzyme/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://i0.wp.com/www.enzyme.com/wp-content/uploads/2023/04/logo_enzyme_white_.png?fit=529%2C200&ssl=1
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +32,52 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Quality Management
+- Life Sciences
+- Medical Devices
+- Biopharma
+- Digital Health
+- Regulatory Compliance
+- QMS
+- TechBio
 apis: []
+common:
+- type: Website
+  url: https://www.enzyme.com/
+- type: Product
+  url: https://www.enzyme.com/product/
+- type: Pricing
+  url: https://www.enzyme.com/plans/
+- type: Blog
+  url: https://www.enzyme.com/blog/
+- type: Support
+  url: https://www.enzyme.com/about/contact-us/
+- type: SignUp
+  name: Request a Demo
+  url: https://www.enzyme.com/schedule-meeting/
+- type: TermsOfService
+  url: https://www.enzyme.com/wp-content/uploads/2023/04/Enzyme_TermsConditions.pdf
+- type: PrivacyPolicy
+  url: https://www.enzyme.com/privacy-policy/
+- type: Compliance
+  name: SOC 2 Type II & 21 CFR Part 11
+  url: https://www.enzyme.com/
+- type: Conformance
+  url: https://raw.githubusercontent.com/api-evangelist/enzyme/refs/heads/main/conformance/enzyme-conformance.yml
+- type: DomainSecurity
+  url: https://raw.githubusercontent.com/api-evangelist/enzyme/refs/heads/main/security/enzyme-domain-security.yml
+- type: LinkedIn
+  url: https://www.linkedin.com/company/enzymecorp/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

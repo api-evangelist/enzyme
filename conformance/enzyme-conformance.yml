@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.enzyme.com/
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: SOC 2 Type II badge published in the enzyme.com site footer
+- id: 21-cfr-part-11
+  conforms: true
+  evidence: Platform advertised as "21 CFR Part 11 compliant, validated out-of-box" on enzyme.com/product
+- id: iso-13485
+  conforms: false
+  evidence: Not published; Enzyme is a QMS for medical-device makers but does not claim its own ISO 13485 certification
+notes: >-
+  Enzyme is an electronic Quality Management System (eQMS) for life sciences. Its
+  published assurance posture is SOC 2 Type II plus FDA 21 CFR Part 11 electronic
+  records/signatures compliance. No public API/OpenAPI is available, so no
+  API-level (oauth2/oidc/rfc9457) conformance could be derived.
